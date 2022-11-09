@@ -2,6 +2,8 @@
     background-color: white;
     padding-left: 5%;
     padding-right: 5%;
+    box-shadow: 0px 8px 8px 0px #d0d4db;
+    z-index: 1;
 }
 
 #search-and-user-controls{
