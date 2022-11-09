@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/assets/css/reset.css">
+    <link rel="stylesheet" href="src/assets/css/styles.css">
+    <link rel="stylesheet" href="src/assets/css/navbar.css">
+    <link rel="stylesheet" href="src/assets/css/main-controlls.css">
+    <link rel="stylesheet" href="src/assets/css/main-content.css">
+    <title>Admin Dashboard</title>
+  </head>
+  <body>
+    <main>
+      <section id="navbar">
+        <div id="navbar-title">
+          <img src="src/assets/icons/view-dashboard.png" alt="">
+          <h1 class="title">Dashboard</h1>
+        </div>
+
+        <div id="section-1">
+          <div class="links">
+            <img src="src/assets/icons/home.png" alt="">
+            <a href="#">Home</a>
+          </div>
+
+          <div class="links">
+            <img src="src/assets/icons/account-circle.png" alt="">
+            <a href="#">Profile</a>
+          </div>
+
+          <div class="links">
+            <img src="src/assets/icons/message-reply.png" alt="">
+            <a href="#">Messages</a>
+          </div>
+
+          <div class="links">
+            <img src="src/assets/icons/history.png" alt="">
+            <a href="#">History</a>
+          </div>
+
+          <div class="links">
+            <img src="src/assets/icons/calendar-check-outline.png" alt="">
+            <a href="#">Tasks</a>
+          </div>
+
+          <div class="links">
+            <img src="src/assets/icons/account-multiple-outline.png" alt="">
+            <a href="#">Communities</a>
+          </div>
+        </div>
+
+
+        <div id="section-2">
+          <div class="links">
+            <img src="src/assets/icons/cog.png" alt="">
+            <a href="#">Settings</a>
+          </div>
+
+          <div class="links">
+            <img src="src/assets/icons/help-circle.png" alt="">
+            <a href="#">Support</a>
+          </div>
+
+          <div class="links">
+            <img src="src/assets/icons/shield-check.png" alt="">
+            <a href="#">Privacy</a>
+          </div>
+        </div>
+      </section>
+
+
+      <section id="main-controls">
+        <div id="search-and-user-controls">
+          <div>
+            <form id="form" action="">
+              <button id="search-btn">
+                <img id="search-icon" src="src/assets/icons/search_FILL0_wght500_GRAD0_opsz48.svg" alt="search icon">
+              </button>  
+              <input id="search" type="search">
+            </form>
+          </div>
+
+          <div id="user-controls">
+            <button id="notification-btn">
+              <img id="notification-icon" src="src/assets/icons/notifications_active_FILL0_wght400_GRAD0_opsz48.svg" alt="notification bell icon">
+            </button>
+            <button id="user-btn">
+              <img src="src/assets/images/Kimi.jpg" alt="user profile picture">
+            </button>
+            <h2 id="user-controls__name">Frost</h2>
+          </div>
+        </div>
+
+        <div id="greeting-and-project-controls">
+          <div id="greeting">
+            <img id="user-img" src="src/assets/images/Kimi.jpg" alt="user's profile picture">
+            <div id="greeting-text">
+              <span>Hello,</span>
+              <h1 id="greeting-name">Frost (@Frost)</h1>
+            </div>
+          </div>
+
+          <div id="project-controls">
+            <button class="project-controls__buttons">New</button>
+            <button class="project-controls__buttons">Upload</button>
+            <button class="project-controls__buttons">Share</button>
+          </div>
+        </div>
+      </section>
+
+
+      <section id="contents">
+        <div id="projects__container">
+          <h2 class="section-title">Projects</h2>
+          <div id="projects">
+            <div class="project-card">
+              <span class="project-card__bar"></span>
+              <div class="project-card__content">
+                <h3 class="project-title">Super Cool Project</h3>
+                <p class="project-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae autem ea porro suscipit aperiam blanditiis quasi molestiae perferendis modi laudantium.</p>
+
+                <div class="card-icons">
+                  <a href="#"><img src="src/assets/icons/star_FILL0_wght400_GRAD0_opsz48.svg" alt="star icon"></a>
+                  <a href="#"><img src="src/assets/icons/visibility_FILL0_wght400_GRAD0_opsz48.svg" alt="view icon"></a>
+                  <a href="#"><img src="src/assets/icons/source-fork.png" alt="fork icon"></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-card">
+              <span class="project-card__bar"></span>
+              <div class="project-card__content">
+                <h3 class="project-title">Project</h3>
+                <p class="project-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae autem ea porro suscipit aperiam blanditiis quasi molestiae perferendis modi laudantium.</p>
+
+                <div class="card-icons">
+                  <a href="#"><img src="src/assets/icons/star_FILL0_wght400_GRAD0_opsz48.svg" alt="star icon"></a>
+                  <a href="#"><img src="src/assets/icons/visibility_FILL0_wght400_GRAD0_opsz48.svg" alt="view icon"></a>
+                  <a href="#"><img src="src/assets/icons/source-fork.png" alt="for icon"></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-card">
+              <span class="project-card__bar"></span>
+              <div class="project-card__content">
+                <h3 class="project-title">Mega Cool Project</h3>
+                <p class="project-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae autem ea porro suscipit aperiam blanditiis quasi molestiae perferendis modi laudantium.</p>
+
+                <div class="card-icons">
+                  <a href="#"><img src="src/assets/icons/star_FILL0_wght400_GRAD0_opsz48.svg" alt="star icon"></a>
+                  <a href="#"><img src="src/assets/icons/visibility_FILL0_wght400_GRAD0_opsz48.svg" alt="view icon"></a>
+                  <a href="#"><img src="src/assets/icons/source-fork.png" alt="fork icon"></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-card">
+              <span class="project-card__bar"></span>
+              <div class="project-card__content">
+                <h3 class="project-title">Impossible App</h3>
+                <p class="project-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae autem ea porro suscipit aperiam blanditiis quasi molestiae perferendis modi laudantium.</p>
+
+                <div class="card-icons">
+                  <a href="#"><img src="src/assets/icons/star_FILL0_wght400_GRAD0_opsz48.svg" alt="star icon"></a>
+                  <a href="#"><img src="src/assets/icons/visibility_FILL0_wght400_GRAD0_opsz48.svg" alt="view icon"></a>
+                  <a href="#"><img src="src/assets/icons/source-fork.png" alt="fork icon"></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-card">
+              <span class="project-card__bar"></span>
+              <div class="project-card__content">
+                <h3 class="project-title">Not so cool project</h3>
+                <p class="project-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae autem ea porro suscipit aperiam blanditiis quasi molestiae perferendis modi laudantium.</p>
+
+                <div class="card-icons">
+                  <a href="#"><img src="src/assets/icons/star_FILL0_wght400_GRAD0_opsz48.svg" alt="star icon"></a>
+                  <a href="#"><img src="src/assets/icons/visibility_FILL0_wght400_GRAD0_opsz48.svg" alt="view icon"></a>
+                  <a href="#"><img src="src/assets/icons/source-fork.png" alt="fork icon"></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-card">
+              <span class="project-card__bar"></span>
+              <div class="project-card__content">
+                <h3 class="project-title">Ad Blocker</h3>
+                <p class="project-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae autem ea porro suscipit aperiam blanditiis quasi molestiae perferendis modi laudantium.</p>
+
+                <div class="card-icons">
+                  <a href="#"><img src="src/assets/icons/star_FILL0_wght400_GRAD0_opsz48.svg" alt="star icon"></a>
+                  <a href="#"><img src="src/assets/icons/visibility_FILL0_wght400_GRAD0_opsz48.svg" alt="view icon"></a>
+                  <a href="#"><img src="src/assets/icons/source-fork.png" alt="fork icon"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="anouncements__container">
+          <h2 class="section-title">Anouncements</h2>
+          <div id="anouncements">
+            <div id="anouncements-card">
+              <div class="anouncement">
+                <h3 class="anouncement-title">Site maintenance</h3>
+                <p class="anouncement-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem esse porro consequatur adipisci voluptatibus? Ullam!</p>
+              </div>
+
+              <div class="styled-break"></div>
+
+              <div class="anouncement">
+                <h3 class="anouncement-title">Community Share Day</h3>
+                <p class="anouncement-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis natus nam a cupiditate minus voluptate id numquam?</p>
+              </div>
+
+              <div class="styled-break"></div>
+
+              <div class="anouncement">
+                <h3 class="anouncement-title">Updated Privacy Policy</h3>
+                <p class="anouncement-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident tempora alias porro, tenetur esse inventore!</p>
+              </div>
+            </div>
+            <div id="trending">
+              <h2 class="section-title">Trending</h2>
+              <div id="trending-card">
+                <div class="trending-item">
+                  <a class="avatar" href="#"></a>
+                  <div>
+                    <a href="#" class="trending-user">@tegan</a>
+                    <span>World Peace Builder</span>
+                  </div>
+                </div>
+
+                <div class="trending-item">
+                  <a class="avatar" href="#"></a>
+                  <div>
+                    <a href="#" class="trending-user">@morgan</a>
+                    <span>Super Cool Something</span>
+                  </div>
+                </div>
+
+                <div class="trending-item">
+                  <a class="avatar" href="#"></a>
+                  <div>
+                    <a href="#" class="trending-user">@Cacho</a>
+                    <span>Life Changing Smthn</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

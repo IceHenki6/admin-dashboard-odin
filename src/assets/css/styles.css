@@ -1,0 +1,50 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+:root{
+    --lightblue: rgb(74, 140, 206);
+    --light-bg: rgb(221, 233, 241);
+    --dark-font-color: rgb(72, 72, 72);
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    color:var(--dark-font-color);
+}
+
+a{
+    text-decoration: none;
+    color: var(--dark-font-color);
+}
+
+main{
+    display: grid;
+
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 18% 1fr;
+    height: 100vh;
+
+    grid-template-areas: 
+        "navbar main-controls"
+        "navbar contents";
+    
+}
+
+
+
+#navbar{
+    grid-area: navbar;
+    background-color: var(--lightblue);
+}
+
+
+#main-controls{
+    grid-area: main-controls;
+}
+
+.section-title{
+    font-size: min(max(16px, 4vw), 22px);
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
