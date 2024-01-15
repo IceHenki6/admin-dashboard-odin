@@ -1,5 +1,5 @@
 #navbar{
-    padding: 5%;
+    padding: 10px;
     color: white;   
 }
 
@@ -11,7 +11,7 @@
 
 .title{
     color: white;
-    font-size: min(max(18px, 1vw), 22px);
+    font-size: min(max(18px, 1rem), 1.5rem);
     margin-left: .8rem;
     font-weight: 700;
 }

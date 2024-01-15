@@ -1,7 +1,6 @@
 #main-controls{
     background-color: white;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding: .8rem 3rem;
     box-shadow: 0px 8px 8px 0px #d0d4db;
     z-index: 1;
 }
@@ -92,8 +91,8 @@
 }
 
 #user-img{
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     margin-right: .5rem;
     object-fit: cover;
@@ -112,17 +111,17 @@
 #project-controls{
     display: flex;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .project-controls__buttons{
-    width: 150px;
-    height: 40px;
+    width: 120px;
+    height: 35px;
 
     border: none;
     background-color: rgb(74, 140, 206);
     color: white;
-    font-size: 16px;
+    font-size: .8rem;
     font-weight: 700;
     border-radius: 20px;
     cursor:pointer;
